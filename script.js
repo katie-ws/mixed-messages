@@ -1,4 +1,5 @@
-let destination = ['Hawaii', 'Denmark', 'Maldives', 'Sri Lanka', 'Japan', 'South Africa', 'Italy', 'Hungary', 'Croatia', 'USA', 'Panama', 'Argentina', 'Costa Rica', 'New Zealand', 'Thailand', 'Syria', 'Myanmar', 'Colombia', 'China', 'Antartica'];
+let destination = ['Hawaii', 'Denmark', 'Maldives', 'Sri Lanka', 'Japan', 'South Africa', 'Italy', 'Hungary', 'Croatia', 'USA', 'Panama', 
+'Argentina', 'Costa Rica', 'New Zealand', 'Thailand', 'Syria', 'Myanmar', 'Colombia', 'China', 'Antartica'];
 let activity = ['go on safari', 
 'swim with dolphins', 
 'eat all the food', 
@@ -19,6 +20,11 @@ let activity = ['go on safari',
 'relax by the pool',
 'ride a jetski',
 'get mugged by a monkey'];
+let person = ['Mum', 'Dad', 'sibling', 'boyfriend/girlfriend', 'husband/wife', 'boss', 'best friend', 'sworn enemy', 'ex', 'pet', 
+'next door neighbour', 'high school sweetheart', 'imaginary friend', 'dentist', 'teacher', 'favorite colleague', 'Deliveroo driver', 
+'hairdresser', 'worst colleague', 'grandparents'];
 
 let randomDestination = destination[Math.floor(Math.random()*destination.length)];
 let randomActivity = activity[Math.floor(Math.random()*activity.length)];
+let randomPerson = person[Math.floor(Math.random()*person.length)];
+
