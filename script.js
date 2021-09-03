@@ -28,3 +28,5 @@ let randomDestination = destination[Math.floor(Math.random()*destination.length)
 let randomActivity = activity[Math.floor(Math.random()*activity.length)];
 let randomPerson = person[Math.floor(Math.random()*person.length)];
 
+console.log(`Your next holiday will be to ${randomDestination}. 
+You will go with your ${randomPerson} and whilst there you will ${randomActivity}.`);
